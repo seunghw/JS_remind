@@ -50,23 +50,23 @@ function multiplyNumeric(menu) {
 
 // 5. 체이닝
 
-let ladder = {
-  step: 0,
-  up() {
-    this.step++;
-  },
-  down() {
-    this.step--;
-  },
-  showStep: function () {
-    // 사다리에서 몇 번째 단에 올라와 있는지 보여줌
-    alert(this.step);
-  },
-};
+// let ladder = {
+//   step: 0,
+//   up() {
+//     this.step++;
+//   },
+//   down() {
+//     this.step--;
+//   },
+//   showStep: function () {
+//     // 사다리에서 몇 번째 단에 올라와 있는지 보여줌
+//     alert(this.step);
+//   },
+// };
 
-ladder.up();
-ladder.up();
-ladder.down();
-ladder.showStep(); // 1
+// ladder.up();
+// ladder.up();
+// ladder.down();
+// ladder.showStep(); // 1
 
-ladder.up().up().down().showStep(); // 1
+// ladder.up().up().down().showStep(); // 1
