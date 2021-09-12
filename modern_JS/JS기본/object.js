@@ -48,6 +48,7 @@
 
 // 3. 가비지 컬렉션
 
+<<<<<<< HEAD
 let calculator = {
   sum() {
     return this.a + this.b;
@@ -64,3 +65,27 @@ let calculator = {
 calculator.read();
 alert(calculator.sum());
 alert(calculator.mul());
+=======
+// 5. 체이닝
+
+// let ladder = {
+//   step: 0,
+//   up() {
+//     this.step++;
+//   },
+//   down() {
+//     this.step--;
+//   },
+//   showStep: function () {
+//     // 사다리에서 몇 번째 단에 올라와 있는지 보여줌
+//     alert(this.step);
+//   },
+// };
+
+// ladder.up();
+// ladder.up();
+// ladder.down();
+// ladder.showStep(); // 1
+
+// ladder.up().up().down().showStep(); // 1
+>>>>>>> 6c1ff99d353ebffe77a14a98672d275f5f1d5c55
