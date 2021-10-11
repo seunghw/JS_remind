@@ -20,34 +20,52 @@
 // }
 
 // 함수 호출 전
-let menu = {
-  width: 200,
-  height: 300,
-  title: "My menu",
-};
+// let menu = {
+//   width: 200,
+//   height: 300,
+//   title: "My menu",
+// };
 
-multiplyNumeric(menu);
+// multiplyNumeric(menu);
 
-// 함수 호출 후
-menu = {
-  width: 400,
-  height: 600,
-  title: "My menu",
-};
+// // 함수 호출 후
+// menu = {
+//   width: 400,
+//   height: 600,
+//   title: "My menu",
+// };
 
-//프로퍼티값 부풀리기
-function multiplyNumeric(menu) {
-  for (let data in menu) {
-    if (typeof menu[data] == "number") {
-      menu[key] += 2;
-    }
-  }
-}
+// //프로퍼티값 부풀리기
+// function multiplyNumeric(menu) {
+//   for (let data in menu) {
+//     if (typeof menu[data] == "number") {
+//       menu[key] += 2;
+//     }
+//   }
+// }
 
 // 2. 참조에 의한 객체 복사
 
 // 3. 가비지 컬렉션
 
+<<<<<<< HEAD
+let calculator = {
+  sum() {
+    return this.a + this.b;
+  },
+  mul() {
+    return this.a * this.b;
+  },
+  read() {
+    this.a = +prompt("첫번째값:", 0);
+    this.b = +prompt("두번째값:", 0);
+  },
+};
+
+calculator.read();
+alert(calculator.sum());
+alert(calculator.mul());
+=======
 // 5. 체이닝
 
 // let ladder = {
@@ -70,3 +88,4 @@ function multiplyNumeric(menu) {
 // ladder.showStep(); // 1
 
 // ladder.up().up().down().showStep(); // 1
+>>>>>>> 6c1ff99d353ebffe77a14a98672d275f5f1d5c55
